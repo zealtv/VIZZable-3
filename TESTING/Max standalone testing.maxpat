@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 491.0, 397.0, 118.0, 133.0 ],
+					"patching_rect" : [ 491.0, 397.0, 161.0, 131.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -242,16 +242,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 284.5, 854.0, 473.0, 854.0, 473.0, 378.0, 311.0, 378.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -259,61 +249,53 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-34" : [ "global dimensions", "global dimensions", 0 ],
-			"obj-5::obj-52" : [ "live.button", "live.button", 0 ],
-			"obj-5::obj-68" : [ "GO", "GO", 0 ],
-			"obj-3::obj-53" : [ "blend mode", "blend mode", 0 ],
-			"obj-4::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-5::obj-67" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-34::obj-39" : [ "pictctrl[34]", "pictctrl[1]", 0 ],
-			"obj-3::obj-41" : [ "Mix Channel 2", "Mix2", 0 ],
-			"obj-5::obj-29" : [ "fs menubar", "fs menubar", 0 ],
-			"obj-1::obj-20" : [ "amp", "amp", 0 ],
-			"obj-1::obj-27" : [ "y offset", "y", 0 ],
-			"obj-4::obj-75" : [ "Shape", "Shape", 0 ],
-			"obj-4::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-4::obj-88" : [ "Time Mode", "Time Mode", 1 ],
-			"obj-2::obj-5" : [ "flip", "fullscreen", 0 ],
-			"obj-5::obj-107" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-1::obj-25" : [ "x offset", "x", 0 ],
-			"obj-34::obj-64" : [ "umenu[4]", "umenu", 0 ],
 			"obj-3::obj-52" : [ "Mix Channel 4", "mix-4", 0 ],
-			"obj-34::obj-6" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
-			"obj-3::obj-14" : [ "Mix Channel 1", "Mix1", 0 ],
-			"obj-4::obj-89" : [ "SyncRate", "Rate", 0 ],
-			"obj-5::obj-3" : [ "fullscreen", "fullscreen", 0 ],
-			"obj-5::obj-91" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-5::obj-112::obj-10" : [ "ok", "ok", 0 ],
+			"obj-4::obj-88" : [ "Time Mode", "Time Mode", 1 ],
+			"obj-1::obj-27" : [ "y offset", "y", 0 ],
+			"obj-5::obj-52" : [ "live.button", "live.button", 0 ],
 			"obj-4::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-5::obj-24" : [ "FLOAT", "Float", 0 ],
-			"obj-2::obj-45" : [ "settings", "settings", 0 ],
-			"obj-3::obj-49" : [ "Mix Channel 3", "Mix3", 0 ],
+			"obj-4::obj-75" : [ "Shape", "Shape", 0 ],
+			"obj-5::obj-29" : [ "fs menubar", "fs menubar", 0 ],
+			"obj-6::obj-121" : [ "hue", "hue", 0 ],
+			"obj-3::obj-41" : [ "Mix Channel 2", "Mix2", 0 ],
 			"obj-4::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
-			"obj-4::obj-74" : [ "Rate", "Rate", 0 ]
+			"obj-5::obj-112::obj-10" : [ "ok", "ok", 0 ],
+			"obj-5::obj-67" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-2::obj-45" : [ "settings", "settings", 0 ],
+			"obj-34::obj-6" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
+			"obj-5::obj-3" : [ "fullscreen", "fullscreen", 0 ],
+			"obj-5::obj-107" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-34::obj-64" : [ "umenu[4]", "umenu", 0 ],
+			"obj-1::obj-20" : [ "amp", "amp", 0 ],
+			"obj-5::obj-24" : [ "FLOAT", "Float", 0 ],
+			"obj-4::obj-74" : [ "Rate", "Rate", 0 ],
+			"obj-3::obj-53" : [ "blend mode", "blend mode", 0 ],
+			"obj-6::obj-13" : [ "saturation", "saturation", 0 ],
+			"obj-3::obj-14" : [ "Mix Channel 1", "Mix1", 0 ],
+			"obj-5::obj-91" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-5::obj-68" : [ "GO", "GO", 0 ],
+			"obj-2::obj-5" : [ "flip", "fullscreen", 0 ],
+			"obj-4::obj-144" : [ "Phase", "Phase", 0 ],
+			"obj-5::obj-34" : [ "global dimensions", "global dimensions", 0 ],
+			"obj-34::obj-39" : [ "pictctrl[34]", "pictctrl[1]", 0 ],
+			"obj-3::obj-49" : [ "Mix Channel 3", "Mix3", 0 ],
+			"obj-4::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-6::obj-12" : [ "lightness", "lightness", 0 ],
+			"obj-1::obj-25" : [ "x offset", "x", 0 ],
+			"obj-4::obj-89" : [ "SyncRate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "WINDOW.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/3.0",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "DRTYFEEDR.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/3.0",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -325,15 +307,13 @@
 			}
 , 			{
 				"name" : "CAM.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/3.0",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIXER.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/3.0",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -345,8 +325,7 @@
 			}
 , 			{
 				"name" : "SOLID.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/3.0",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -356,9 +335,9 @@
 				"name" : "comment001",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"textjustification" : [ 2 ],
+					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ]
+					"textjustification" : [ 2 ]
 				}
 ,
 				"parentstyle" : "",
@@ -367,10 +346,10 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -378,15 +357,18 @@
 			}
 , 			{
 				"name" : "vb green",
-				"comment" : 				{
+				"textbutton" : 				{
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
 				}
 ,
 				"umenu" : 				{
 					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"bgfillcolor" : 					{
@@ -398,22 +380,19 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
 				}
 ,
-				"textbutton" : 				{
+				"comment" : 				{
 					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"centerjust" : [ 2 ]
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -438,11 +417,11 @@
 					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"button" : 				{
+				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"umenu" : 				{
+				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
@@ -456,11 +435,11 @@
 					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"button" : 				{
+				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"umenu" : 				{
+				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
@@ -469,15 +448,18 @@
 			}
 , 			{
 				"name" : "vb purple",
-				"comment" : 				{
+				"textbutton" : 				{
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
 				"umenu" : 				{
 					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"bgfillcolor" : 					{
@@ -489,22 +471,19 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
-				"textbutton" : 				{
+				"comment" : 				{
 					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"centerjust" : [ 2 ]
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -524,15 +503,18 @@
 			}
 , 			{
 				"name" : "vb purple-1",
-				"comment" : 				{
+				"textbutton" : 				{
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
 				"umenu" : 				{
 					"fontface" : [ 1 ],
 					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"bgfillcolor" : 					{
@@ -544,22 +526,19 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
-				"textbutton" : 				{
+				"comment" : 				{
 					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"centerjust" : [ 2 ]
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
