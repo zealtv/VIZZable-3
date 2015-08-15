@@ -33,11 +33,15 @@ function setsizetobackground()
 	a[2] = x + w;
 	a[3] = y + h;	
 	
-	this.patcher.box.rect = a;							
+	this.patcher.box.rect = a;	
+	getsize();
 }
 
 
 function getsize()
 {
-	outlet(0, this.patcher.box.rect[0], this.patcher.box.rect[1]);
+	var presrect = getbackground();
+
+	outlet(0,  presrect[2], presrect[3] );
+
 }
