@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 874.0, 79.0, 232.0, 933.0 ],
+		"rect" : [ 874.0, 79.0, 772.0, 933.0 ],
 		"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2135,8 +2135,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1007.0, 1002.0, 80.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 62.75, 59.0, 33.0 ],
 					"style" : "",
 					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
@@ -2875,15 +2873,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-91", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-98", 0 ]
 				}
 
 			}
