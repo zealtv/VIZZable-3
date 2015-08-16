@@ -217,6 +217,8 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "Y Offset"
 						}
 
@@ -270,6 +272,8 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "X Offset"
 						}
 
@@ -435,6 +439,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "Feedback Amplification"
 						}
 
@@ -1042,8 +1048,8 @@
  ],
 		"parameters" : 		{
 			"obj-27" : [ "y offset", "y", 0 ],
-			"obj-25" : [ "x offset", "x", 0 ],
-			"obj-20" : [ "amp", "amp", 0 ]
+			"obj-20" : [ "amp", "amp", 0 ],
+			"obj-25" : [ "x offset", "x", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1058,9 +1064,9 @@
 				"name" : "comment001",
 				"default" : 				{
 					"textjustification" : [ 2 ],
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ]
+					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1081,9 +1087,6 @@
 , 			{
 				"name" : "vb green",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -1095,21 +1098,10 @@
 					}
 ,
 					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
-				}
-,
-				"comment" : 				{
+					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -1122,6 +1114,20 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"centerjust" : [ 2 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -1172,9 +1178,6 @@
 , 			{
 				"name" : "vb purple",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -1186,21 +1189,10 @@
 					}
 ,
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"comment" : 				{
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -1213,6 +1205,20 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"centerjust" : [ 2 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
 				"button" : 				{
@@ -1227,9 +1233,6 @@
 , 			{
 				"name" : "vb purple-1",
 				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -1241,21 +1244,10 @@
 					}
 ,
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"comment" : 				{
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"fontface" : [ 1 ],
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
+					"fontsize" : [ 10.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -1268,6 +1260,20 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"centerjust" : [ 2 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
 				}
 ,
 				"button" : 				{

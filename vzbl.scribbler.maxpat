@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 874.0, 78.0, 772.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 772.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -128,6 +128,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "y displace"
 						}
 
@@ -166,6 +168,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "x displace"
 						}
 
@@ -217,6 +221,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "erase"
 						}
 
@@ -954,6 +960,8 @@
 							"parameter_initial" : [ 0.02 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "pen size"
 						}
 
@@ -992,6 +1000,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "y"
 						}
 
@@ -1030,6 +1040,8 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
 							"parameter_units" : "x",
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "x"
 						}
 
@@ -1159,6 +1171,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 1,
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "Opacity"
 						}
 
@@ -1199,6 +1213,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_unitstyle" : 1,
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "Opacity"
 						}
 
@@ -1239,6 +1255,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 1,
+							"parameter_speedlim" : 16.0,
+							"parameter_defer" : 1,
 							"parameter_annotation_name" : "Opacity"
 						}
 
