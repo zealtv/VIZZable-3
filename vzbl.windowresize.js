@@ -25,7 +25,7 @@ function setsizetobackground()
 	var y = this.patcher.box.rect[1];
 	var w = presrect[2];
 	var h = presrect[3];
-	post( "width = " + w, " height = " + h + " x = " + x + " y = " + y );
+	//post( "width = " + w, " height = " + h + " x = " + x + " y = " + y );
 	
 	var a = new Array();
 	a[0] = x;
