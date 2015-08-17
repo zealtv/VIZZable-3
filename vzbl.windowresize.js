@@ -16,7 +16,6 @@ function setsizetobackground()
 {
 	if (!this.patcher.box)
 	{
-		post("!this.patcher.box");
 		return;
 	}
 
@@ -42,6 +41,6 @@ function getsize()
 {
 	var presrect = getbackground();
 
-	outlet(0,  presrect[2], presrect[3] );
+	outlet(0, size, presrect[2], presrect[3] );
 
 }
