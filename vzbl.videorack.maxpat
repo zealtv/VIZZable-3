@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 772.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 772.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 399.0, 911.0, 96.0, 33.0 ],
+					"style" : "",
+					"text" : "should remake this via script >"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 377.0, 776.0, 96.0, 87.0 ],
+					"style" : "",
+					"text" : "once clips are triggered by midi,  clips no longer trigger successfully by clicking the grid"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -211,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 259.968964, 170.0, 22.0 ],
+					"patching_rect" : [ 282.0, 403.031036, 170.0, 22.0 ],
 					"style" : "",
 					"text" : "square color 0.96 0.67 0.93 1."
 				}
@@ -220,12 +246,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-70",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 259.968964, 96.0, 76.0 ],
+					"patching_rect" : [ 282.0, 436.062073, 170.0, 35.0 ],
 					"style" : "",
 					"text" : "setbackground 0.65098 0.666667 0.662745 1., bang"
 				}
@@ -1137,7 +1163,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 38.0, 104.0, 211.0, 165.0 ],
+						"rect" : [ 533.0, 377.0, 211.0, 168.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1347,15 +1373,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-862",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1266.967773, 4472.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1266.967773, 4472.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -1601,15 +1628,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-764",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1222.967773, 3955.349121, 66.0, 22.0 ],
+									"patching_rect" : [ 1222.967773, 3955.349121, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -1855,15 +1883,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-715",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1251.967773, 3458.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1251.967773, 3458.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -2109,15 +2138,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-682",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1216.134399, 2935.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1216.134399, 2935.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -2363,15 +2393,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-633",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1211.551025, 2436.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1211.551025, 2436.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -2617,15 +2648,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-600",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1228.551025, 1941.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1228.551025, 1941.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -2871,15 +2903,16 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-413",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1193.950684, 1392.705566, 66.0, 22.0 ],
+									"patching_rect" : [ 1193.950684, 1392.705566, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -3125,6 +3158,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-122",
@@ -3132,23 +3166,24 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 722.165771, 432.5, 64.0, 22.0 ],
+									"patching_rect" : [ 722.165771, 432.5, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "r ---trigger"
+									"text" : "r #0-trigger"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-46",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1269.0, 850.498779, 66.0, 22.0 ],
+									"patching_rect" : [ 1269.0, 850.498779, 84.0, 22.0 ],
 									"style" : "",
-									"text" : "s ---trigger"
+									"text" : "s #0-trigger"
 								}
 
 							}
@@ -22247,7 +22282,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 499.0, 173.0, 46.0, 20.0 ],
+					"patching_rect" : [ 499.0, 173.0, 57.5, 20.0 ],
 					"style" : "",
 					"text" : "unpack"
 				}
@@ -22434,7 +22469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 499.0, 215.0, 53.0, 20.0 ],
+					"patching_rect" : [ 499.0, 215.0, 57.5, 20.0 ],
 					"style" : "",
 					"text" : "stripnote"
 				}
@@ -23170,137 +23205,137 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-408" : [ "level[132]", "level", 0 ],
-			"obj-3::obj-51" : [ "level[166]", "level", 0 ],
-			"obj-3::obj-283" : [ "level[194]", "level", 0 ],
-			"obj-3::obj-38" : [ "level[159]", "level", 0 ],
-			"obj-3::obj-243" : [ "level[182]", "level", 0 ],
-			"obj-3::obj-130" : [ "level[186]", "level", 0 ],
-			"obj-3::obj-80" : [ "level[131]", "level", 0 ],
-			"obj-3::obj-495" : [ "level[228]", "level", 0 ],
-			"obj-3::obj-68" : [ "level[192]", "level", 0 ],
-			"obj-3::obj-103" : [ "level[235]", "level", 0 ],
-			"obj-3::obj-329" : [ "level[151]", "level", 0 ],
-			"obj-3::obj-75" : [ "level[154]", "level", 0 ],
-			"obj-3::obj-332" : [ "level[207]", "level", 0 ],
-			"obj-3::obj-96" : [ "level[214]", "level", 0 ],
-			"obj-3::obj-188" : [ "level[244]", "level", 0 ],
-			"obj-3::obj-289" : [ "level[239]", "level", 0 ],
-			"obj-3::obj-256" : [ "level[140]", "level", 0 ],
-			"obj-3::obj-185" : [ "level[135]", "level", 0 ],
-			"obj-3::obj-255" : [ "level[206]", "level", 0 ],
-			"obj-3::obj-336" : [ "level[236]", "level", 0 ],
-			"obj-3::obj-421" : [ "level[219]", "level", 0 ],
-			"obj-3::obj-285" : [ "level[210]", "level", 0 ],
-			"obj-3::obj-35" : [ "level[130]", "level", 0 ],
-			"obj-3::obj-397" : [ "level[203]", "level", 0 ],
-			"obj-3::obj-148" : [ "level[147]", "level", 0 ],
-			"obj-3::obj-304" : [ "level[148]", "level", 0 ],
-			"obj-3::obj-233" : [ "level[152]", "level", 0 ],
-			"obj-3::obj-127" : [ "level[163]", "level", 0 ],
-			"obj-3::obj-485" : [ "level[179]", "level", 0 ],
-			"obj-3::obj-160" : [ "level[197]", "level", 0 ],
-			"obj-34" : [ "scrub", "scrub", 0 ],
-			"obj-3::obj-324" : [ "level[137]", "level", 0 ],
-			"obj-3::obj-310" : [ "level[205]", "level", 0 ],
-			"obj-3::obj-186" : [ "level[141]", "level", 0 ],
-			"obj-3::obj-275" : [ "level[143]", "level", 0 ],
-			"obj-3::obj-113" : [ "level[183]", "level", 0 ],
-			"obj-3::obj-175" : [ "level[134]", "level", 0 ],
-			"obj-3::obj-29" : [ "level[223]", "level", 0 ],
-			"obj-3::obj-246" : [ "level[138]", "level", 0 ],
-			"obj-3::obj-101" : [ "level[168]", "level", 0 ],
-			"obj-3::obj-415" : [ "level[133]", "level", 0 ],
-			"obj-3::obj-79" : [ "level[198]", "level", 0 ],
-			"obj-3::obj-287" : [ "level[167]", "level", 0 ],
-			"obj-3::obj-166" : [ "level[249]", "level", 0 ],
-			"obj-3::obj-506" : [ "level[217]", "level", 0 ],
-			"obj-3::obj-138" : [ "level[231]", "level", 0 ],
-			"obj-3::obj-302" : [ "level[225]", "level", 0 ],
-			"obj-3::obj-214" : [ "level[240]", "level", 0 ],
-			"obj-3::obj-154" : [ "level[164]", "level", 0 ],
-			"obj-3::obj-156" : [ "level[215]", "level", 0 ],
-			"obj-3::obj-300" : [ "level[170]", "level", 0 ],
-			"obj-3::obj-49" : [ "level[199]", "level", 0 ],
-			"obj-3::obj-53" : [ "level[160]", "level", 0 ],
-			"obj-3::obj-220" : [ "level[251]", "level", 0 ],
-			"obj-3::obj-204" : [ "level[172]", "level", 0 ],
-			"obj-3::obj-345" : [ "level[252]", "level", 0 ],
-			"obj-3::obj-100" : [ "level[226]", "level", 0 ],
-			"obj-3::obj-269" : [ "level[189]", "level", 0 ],
-			"obj-3::obj-268" : [ "level[233]", "level", 0 ],
-			"obj-3::obj-259" : [ "level[200]", "level", 0 ],
-			"obj-3::obj-409" : [ "level[180]", "level", 0 ],
-			"obj-3::obj-252" : [ "level[158]", "level", 0 ],
-			"obj-3::obj-118" : [ "level[222]", "level", 0 ],
-			"obj-3::obj-95" : [ "level[177]", "level", 0 ],
-			"obj-3::obj-498" : [ "level[149]", "level", 0 ],
-			"obj-3::obj-337" : [ "level[193]", "level", 0 ],
-			"obj-3::obj-330" : [ "level[181]", "level", 0 ],
-			"obj-3::obj-191" : [ "level[128]", "level", 0 ],
-			"obj-3::obj-81" : [ "level[165]", "level", 0 ],
-			"obj-3::obj-108" : [ "level[178]", "level", 0 ],
-			"obj-3::obj-26" : [ "level[224]", "level", 0 ],
-			"obj-3::obj-290" : [ "level[169]", "level", 0 ],
-			"obj-3::obj-216" : [ "level[211]", "level", 0 ],
-			"obj-3::obj-190" : [ "level[171]", "level", 0 ],
-			"obj-3::obj-339" : [ "level[237]", "level", 0 ],
-			"obj-3::obj-210" : [ "level[238]", "level", 0 ],
-			"obj-3::obj-265" : [ "level[250]", "level", 0 ],
 			"obj-3::obj-50" : [ "level[212]", "level", 0 ],
-			"obj-3::obj-399" : [ "level[254]", "level", 0 ],
-			"obj-3::obj-238" : [ "level[157]", "level", 0 ],
-			"obj-3::obj-58" : [ "level[161]", "level", 0 ],
-			"obj-3::obj-282" : [ "level[209]", "level", 0 ],
-			"obj-3::obj-129" : [ "level[142]", "level", 0 ],
+			"obj-3::obj-233" : [ "level[152]", "level", 0 ],
+			"obj-3::obj-397" : [ "level[203]", "level", 0 ],
 			"obj-3::obj-76" : [ "level[246]", "level", 0 ],
-			"obj-3::obj-494" : [ "level[216]", "level", 0 ],
-			"obj-3::obj-331" : [ "level[232]", "level", 0 ],
-			"obj-3::obj-319" : [ "level[144]", "level", 0 ],
-			"obj-3::obj-187" : [ "level[185]", "level", 0 ],
-			"obj-3::obj-280" : [ "level[150]", "level", 0 ],
-			"obj-3::obj-247" : [ "level[139]", "level", 0 ],
-			"obj-3::obj-184" : [ "level[145]", "level", 0 ],
-			"obj-3::obj-132" : [ "level[174]", "level", 0 ],
-			"obj-3::obj-288" : [ "level[213]", "level", 0 ],
-			"obj-3::obj-420" : [ "level[188]", "level", 0 ],
-			"obj-3::obj-284" : [ "level[175]", "level", 0 ],
-			"obj-3::obj-10" : [ "level[136]", "level", 0 ],
-			"obj-3::obj-147" : [ "level[241]", "level", 0 ],
-			"obj-3::obj-507" : [ "level[218]", "level", 0 ],
-			"obj-122" : [ "rate", "rate", 0 ],
-			"obj-3::obj-303" : [ "level[242]", "level", 0 ],
-			"obj-3::obj-128" : [ "level[162]", "level", 0 ],
-			"obj-3::obj-134" : [ "level[234]", "level", 0 ],
-			"obj-3::obj-232" : [ "level[248]", "level", 0 ],
-			"obj-3::obj-159" : [ "level[176]", "level", 0 ],
-			"obj-3::obj-483" : [ "level[253]", "level", 0 ],
-			"obj-3::obj-309" : [ "level[204]", "level", 0 ],
-			"obj-3::obj-224" : [ "level[184]", "level", 0 ],
-			"obj-3::obj-205" : [ "level[221]", "level", 0 ],
-			"obj-3::obj-67" : [ "level[173]", "level", 0 ],
 			"obj-3::obj-102" : [ "level[227]", "level", 0 ],
-			"obj-3::obj-270" : [ "level[230]", "level", 0 ],
-			"obj-3::obj-271" : [ "level[243]", "level", 0 ],
-			"obj-120" : [ "loop mode", "loop mode", 0 ],
+			"obj-3::obj-310" : [ "level[205]", "level", 0 ],
+			"obj-3::obj-485" : [ "level[179]", "level", 0 ],
+			"obj-3::obj-285" : [ "level[210]", "level", 0 ],
+			"obj-3::obj-154" : [ "level[164]", "level", 0 ],
+			"obj-3::obj-275" : [ "level[143]", "level", 0 ],
 			"obj-3::obj-266" : [ "level[245]", "level", 0 ],
-			"obj-3::obj-412" : [ "level[229]", "level", 0 ],
-			"obj-3::obj-253" : [ "level[255]", "level", 0 ],
-			"obj-3::obj-133" : [ "level[191]", "level", 0 ],
-			"obj-3::obj-501" : [ "level[155]", "level", 0 ],
 			"obj-3::obj-301" : [ "level[208]", "level", 0 ],
-			"obj-3::obj-223" : [ "level[220]", "level", 0 ],
-			"obj-3::obj-82" : [ "level[129]", "level", 0 ],
-			"obj-3::obj-155" : [ "level[202]", "level", 0 ],
-			"obj-3::obj-151" : [ "level[153]", "level", 0 ],
-			"obj-3::obj-295" : [ "level[190]", "level", 0 ],
-			"obj-3::obj-219" : [ "level[196]", "level", 0 ],
-			"obj-3::obj-195" : [ "level[146]", "level", 0 ],
-			"obj-3::obj-99" : [ "level[187]", "level", 0 ],
-			"obj-3::obj-211" : [ "level[247]", "level", 0 ],
+			"obj-3::obj-220" : [ "level[251]", "level", 0 ],
+			"obj-3::obj-270" : [ "level[230]", "level", 0 ],
+			"obj-3::obj-148" : [ "level[147]", "level", 0 ],
+			"obj-3::obj-166" : [ "level[249]", "level", 0 ],
+			"obj-3::obj-127" : [ "level[163]", "level", 0 ],
+			"obj-3::obj-268" : [ "level[233]", "level", 0 ],
+			"obj-3::obj-415" : [ "level[133]", "level", 0 ],
+			"obj-3::obj-214" : [ "level[240]", "level", 0 ],
+			"obj-3::obj-506" : [ "level[217]", "level", 0 ],
+			"obj-3::obj-300" : [ "level[170]", "level", 0 ],
+			"obj-3::obj-134" : [ "level[234]", "level", 0 ],
 			"obj-3::obj-344" : [ "level[201]", "level", 0 ],
+			"obj-3::obj-68" : [ "level[192]", "level", 0 ],
+			"obj-3::obj-113" : [ "level[183]", "level", 0 ],
+			"obj-3::obj-283" : [ "level[194]", "level", 0 ],
+			"obj-3::obj-156" : [ "level[215]", "level", 0 ],
+			"obj-3::obj-51" : [ "level[166]", "level", 0 ],
+			"obj-3::obj-191" : [ "level[128]", "level", 0 ],
+			"obj-3::obj-332" : [ "level[207]", "level", 0 ],
+			"obj-3::obj-216" : [ "level[211]", "level", 0 ],
 			"obj-3::obj-260" : [ "level[156]", "level", 0 ],
-			"obj-3::obj-267" : [ "level[195]", "level", 0 ]
+			"obj-3::obj-252" : [ "level[158]", "level", 0 ],
+			"obj-3::obj-138" : [ "level[231]", "level", 0 ],
+			"obj-3::obj-409" : [ "level[180]", "level", 0 ],
+			"obj-3::obj-330" : [ "level[181]", "level", 0 ],
+			"obj-3::obj-96" : [ "level[214]", "level", 0 ],
+			"obj-3::obj-498" : [ "level[149]", "level", 0 ],
+			"obj-3::obj-204" : [ "level[172]", "level", 0 ],
+			"obj-3::obj-82" : [ "level[129]", "level", 0 ],
+			"obj-3::obj-129" : [ "level[142]", "level", 0 ],
+			"obj-3::obj-336" : [ "level[236]", "level", 0 ],
+			"obj-3::obj-290" : [ "level[169]", "level", 0 ],
+			"obj-3::obj-53" : [ "level[160]", "level", 0 ],
+			"obj-3::obj-304" : [ "level[148]", "level", 0 ],
+			"obj-3::obj-187" : [ "level[185]", "level", 0 ],
+			"obj-3::obj-185" : [ "level[135]", "level", 0 ],
+			"obj-3::obj-324" : [ "level[137]", "level", 0 ],
+			"obj-3::obj-247" : [ "level[139]", "level", 0 ],
+			"obj-3::obj-210" : [ "level[238]", "level", 0 ],
+			"obj-3::obj-99" : [ "level[187]", "level", 0 ],
+			"obj-3::obj-29" : [ "level[223]", "level", 0 ],
+			"obj-3::obj-118" : [ "level[222]", "level", 0 ],
+			"obj-3::obj-238" : [ "level[157]", "level", 0 ],
+			"obj-3::obj-399" : [ "level[254]", "level", 0 ],
+			"obj-3::obj-103" : [ "level[235]", "level", 0 ],
+			"obj-3::obj-26" : [ "level[224]", "level", 0 ],
+			"obj-3::obj-319" : [ "level[144]", "level", 0 ],
+			"obj-3::obj-80" : [ "level[131]", "level", 0 ],
+			"obj-122" : [ "rate", "rate", 0 ],
+			"obj-3::obj-265" : [ "level[250]", "level", 0 ],
+			"obj-3::obj-75" : [ "level[154]", "level", 0 ],
+			"obj-3::obj-494" : [ "level[216]", "level", 0 ],
+			"obj-3::obj-190" : [ "level[171]", "level", 0 ],
+			"obj-3::obj-159" : [ "level[176]", "level", 0 ],
+			"obj-3::obj-280" : [ "level[150]", "level", 0 ],
+			"obj-3::obj-287" : [ "level[167]", "level", 0 ],
+			"obj-3::obj-302" : [ "level[225]", "level", 0 ],
+			"obj-3::obj-224" : [ "level[184]", "level", 0 ],
+			"obj-3::obj-101" : [ "level[168]", "level", 0 ],
+			"obj-34" : [ "scrub", "scrub", 0 ],
+			"obj-3::obj-175" : [ "level[134]", "level", 0 ],
+			"obj-3::obj-271" : [ "level[243]", "level", 0 ],
+			"obj-3::obj-132" : [ "level[174]", "level", 0 ],
+			"obj-3::obj-58" : [ "level[161]", "level", 0 ],
+			"obj-3::obj-35" : [ "level[130]", "level", 0 ],
+			"obj-3::obj-420" : [ "level[188]", "level", 0 ],
+			"obj-3::obj-232" : [ "level[248]", "level", 0 ],
+			"obj-120" : [ "loop mode", "loop mode", 0 ],
+			"obj-3::obj-507" : [ "level[218]", "level", 0 ],
+			"obj-3::obj-345" : [ "level[252]", "level", 0 ],
+			"obj-3::obj-309" : [ "level[204]", "level", 0 ],
+			"obj-3::obj-284" : [ "level[175]", "level", 0 ],
+			"obj-3::obj-483" : [ "level[253]", "level", 0 ],
+			"obj-3::obj-151" : [ "level[153]", "level", 0 ],
+			"obj-3::obj-259" : [ "level[200]", "level", 0 ],
+			"obj-3::obj-337" : [ "level[193]", "level", 0 ],
+			"obj-3::obj-10" : [ "level[136]", "level", 0 ],
+			"obj-3::obj-269" : [ "level[189]", "level", 0 ],
+			"obj-3::obj-219" : [ "level[196]", "level", 0 ],
+			"obj-3::obj-147" : [ "level[241]", "level", 0 ],
+			"obj-3::obj-79" : [ "level[198]", "level", 0 ],
+			"obj-3::obj-253" : [ "level[255]", "level", 0 ],
+			"obj-3::obj-267" : [ "level[195]", "level", 0 ],
+			"obj-3::obj-412" : [ "level[229]", "level", 0 ],
+			"obj-3::obj-128" : [ "level[162]", "level", 0 ],
+			"obj-3::obj-223" : [ "level[220]", "level", 0 ],
+			"obj-3::obj-501" : [ "level[155]", "level", 0 ],
+			"obj-3::obj-108" : [ "level[178]", "level", 0 ],
+			"obj-3::obj-130" : [ "level[186]", "level", 0 ],
+			"obj-3::obj-339" : [ "level[237]", "level", 0 ],
+			"obj-3::obj-295" : [ "level[190]", "level", 0 ],
+			"obj-3::obj-205" : [ "level[221]", "level", 0 ],
+			"obj-3::obj-282" : [ "level[209]", "level", 0 ],
+			"obj-3::obj-67" : [ "level[173]", "level", 0 ],
+			"obj-3::obj-155" : [ "level[202]", "level", 0 ],
+			"obj-3::obj-49" : [ "level[199]", "level", 0 ],
+			"obj-3::obj-188" : [ "level[244]", "level", 0 ],
+			"obj-3::obj-331" : [ "level[232]", "level", 0 ],
+			"obj-3::obj-211" : [ "level[247]", "level", 0 ],
+			"obj-3::obj-256" : [ "level[140]", "level", 0 ],
+			"obj-3::obj-100" : [ "level[226]", "level", 0 ],
+			"obj-3::obj-133" : [ "level[191]", "level", 0 ],
+			"obj-3::obj-243" : [ "level[182]", "level", 0 ],
+			"obj-3::obj-408" : [ "level[132]", "level", 0 ],
+			"obj-3::obj-95" : [ "level[177]", "level", 0 ],
+			"obj-3::obj-329" : [ "level[151]", "level", 0 ],
+			"obj-3::obj-495" : [ "level[228]", "level", 0 ],
+			"obj-3::obj-195" : [ "level[146]", "level", 0 ],
+			"obj-3::obj-289" : [ "level[239]", "level", 0 ],
+			"obj-3::obj-160" : [ "level[197]", "level", 0 ],
+			"obj-3::obj-288" : [ "level[213]", "level", 0 ],
+			"obj-3::obj-81" : [ "level[165]", "level", 0 ],
+			"obj-3::obj-303" : [ "level[242]", "level", 0 ],
+			"obj-3::obj-186" : [ "level[141]", "level", 0 ],
+			"obj-3::obj-184" : [ "level[145]", "level", 0 ],
+			"obj-3::obj-38" : [ "level[159]", "level", 0 ],
+			"obj-3::obj-255" : [ "level[206]", "level", 0 ],
+			"obj-3::obj-421" : [ "level[219]", "level", 0 ],
+			"obj-3::obj-246" : [ "level[138]", "level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -23332,10 +23367,10 @@
 		"styles" : [ 			{
 				"name" : "comment001",
 				"default" : 				{
-					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textjustification" : [ 2 ],
-					"fontsize" : [ 10.0 ]
+					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"textjustification" : [ 2 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23344,10 +23379,10 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23355,9 +23390,18 @@
 			}
 , 			{
 				"name" : "vb green",
-				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23367,30 +23411,21 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"centerjust" : [ 2 ]
 				}
 ,
 				"panel" : 				{
@@ -23410,17 +23445,17 @@
 			}
 , 			{
 				"name" : "vb pink",
-				"umenu" : 				{
-					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"textbutton" : 				{
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				"umenu" : 				{
+					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"parentstyle" : "vb purple",
@@ -23428,17 +23463,17 @@
 			}
 , 			{
 				"name" : "vb pink-1",
-				"umenu" : 				{
-					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
-				"textbutton" : 				{
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				"umenu" : 				{
+					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23446,9 +23481,18 @@
 			}
 , 			{
 				"name" : "vb purple",
-				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23458,30 +23502,21 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"centerjust" : [ 2 ]
 				}
 ,
 				"panel" : 				{
@@ -23501,9 +23536,18 @@
 			}
 , 			{
 				"name" : "vb purple-1",
-				"umenu" : 				{
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+				}
+,
+				"umenu" : 				{
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23513,30 +23557,21 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"centerjust" : [ 2 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 16.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
+
 				}
 ,
 				"comment" : 				{
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
+				}
+,
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"centerjust" : [ 2 ]
 				}
 ,
 				"panel" : 				{
