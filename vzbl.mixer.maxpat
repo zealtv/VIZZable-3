@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 772.0, 933.0 ],
+		"rect" : [ 874.0, 590.0, 772.0, 450.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3478,7 +3478,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 361.0, 297.0, 600.0, 450.0 ],
+						"rect" : [ 275.0, 371.0, 600.0, 450.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
@@ -3514,9 +3514,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.0, 382.0, 35.0, 22.0 ],
+									"patching_rect" : [ 143.0, 478.0, 31.0, 22.0 ],
 									"style" : "",
-									"text" : "% 1."
+									"text" : "% 1"
 								}
 
 							}
@@ -3527,7 +3527,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.0, 422.0, 55.0, 22.0 ],
+									"patching_rect" : [ 143.0, 518.0, 55.0, 22.0 ],
 									"style" : "",
 									"text" : "clip 0. 1."
 								}
@@ -3554,7 +3554,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.5, 334.0, 30.0, 20.0 ],
+									"patching_rect" : [ 177.5, 430.0, 30.0, 20.0 ],
 									"style" : "",
 									"text" : "add"
 								}
@@ -3592,7 +3592,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 146.0, 334.0, 29.5, 22.0 ],
+									"patching_rect" : [ 143.0, 430.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "+"
 								}
@@ -3768,7 +3768,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 146.0, 456.0, 37.0, 22.0 ],
+									"patching_rect" : [ 143.0, 552.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "out 1"
 								}
@@ -7057,8 +7057,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "level 2", "level2", 0 ],
 			"obj-130" : [ "blend mode[4]", "blend mode", 0 ],
+			"obj-7" : [ "level 2", "level2", 0 ],
 			"obj-131" : [ "level 1", "level1", 0 ]
 		}
 ,

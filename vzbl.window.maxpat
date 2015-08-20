@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1283.0, 933.0 ],
+		"rect" : [ 34.0, 78.0, 766.0, 933.0 ],
 		"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2283,8 +2283,8 @@
 			"obj-20" : [ "global dimensions[1]", "global dimensions", 0 ],
 			"obj-112::obj-126" : [ "ok", "ok", 0 ],
 			"obj-10" : [ "GO[1]", "GO", 0 ],
-			"obj-22" : [ "fullscreen[1]", "fullscreen", 0 ],
-			"obj-24" : [ "FLOAT", "Float", 0 ]
+			"obj-24" : [ "FLOAT", "Float", 0 ],
+			"obj-22" : [ "fullscreen[1]", "fullscreen", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2295,7 +2295,7 @@
 			}
 , 			{
 				"name" : "vzbl.windowresize.js",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
