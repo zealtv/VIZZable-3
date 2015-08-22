@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1612.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u259004117"
+					"varname" : "u890006420"
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 696.666687, 149.0, 42.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.726105, 28.0, 48.0, 90.0 ],
+					"presentation_rect" : [ 137.726105, 26.0, 48.0, 103.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -89,7 +89,6 @@
 
 					}
 ,
-					"shownumber" : 0,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
@@ -232,7 +231,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 498.666687, 149.0, 42.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.726105, 28.0, 48.0, 90.0 ],
+					"presentation_rect" : [ 87.726105, 26.0, 48.0, 103.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -251,7 +250,6 @@
 
 					}
 ,
-					"shownumber" : 0,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
@@ -274,7 +272,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 597.666687, 149.0, 42.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.726105, 28.0, 48.0, 90.0 ],
+					"presentation_rect" : [ 39.726105, 26.0, 48.0, 103.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -293,7 +291,6 @@
 
 					}
 ,
-					"shownumber" : 0,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
@@ -316,7 +313,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 399.666687, 149.0, 42.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.726105, 28.0, 33.0, 90.0 ],
+					"presentation_rect" : [ 2.726105, 26.0, 33.0, 103.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -335,7 +332,6 @@
 
 					}
 ,
-					"shownumber" : 0,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],

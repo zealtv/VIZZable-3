@@ -56,7 +56,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u794001696"
+					"varname" : "u083009942"
 				}
 
 			}
@@ -155,10 +155,11 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 98.0, 322.0, 66.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.0, 82.5, 69.0, 18.0 ],
+					"presentation_rect" : [ 164.0, 85.5, 69.0, 18.0 ],
 					"style" : "",
 					"text" : "boundmode",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
