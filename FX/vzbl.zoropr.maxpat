@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1612.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1293.5, 292.0, 58.0, 22.0 ],
+					"restore" : 					{
+						"boundmode[1]" : [ 0 ],
+						"panx" : [ 0.0 ],
+						"pany" : [ 0.0 ],
+						"rotation" : [ 0.0 ],
+						"stretchx" : [ 0.0 ],
+						"stretchy" : [ 0.0 ],
+						"zoom" : [ 0.75 ]
+					}
+,
+					"style" : "",
+					"text" : "autopattr",
+					"varname" : "u794001696"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "",
 					"hint" : "",
@@ -4941,7 +4965,6 @@
 					"activedialcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"activeneedlecolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"annotation" : "",
-					"dialcolor" : [ 0.752941, 0.784314, 0.839216, 1.0 ],
 					"focusbordercolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"id" : "obj-106",
 					"maxclass" : "live.dial",
@@ -4968,7 +4991,6 @@
 					}
 ,
 					"textcolor" : [ 0.988235, 1.0, 0.976471, 1.0 ],
-					"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
 					"varname" : "rotation"
 				}
 
@@ -6049,7 +6071,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1306.5, 334.0, 196.0, 24.0 ],
+					"patching_rect" : [ 1316.5, 387.5, 196.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 344.0, 24.0 ],
 					"style" : "",
@@ -6066,7 +6088,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1306.5, 150.0, 103.0, 22.0 ],
+					"patching_rect" : [ 1293.5, 111.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-messagesin"
 				}
@@ -6078,7 +6100,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1306.5, 280.5, 53.0, 22.0 ],
+					"patching_rect" : [ 1293.5, 241.5, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "s ---size"
 				}
@@ -6091,7 +6113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1424.5, 186.5, 37.0, 22.0 ],
+					"patching_rect" : [ 1411.5, 147.5, 37.0, 22.0 ],
 					"style" : "",
 					"text" : "del 1"
 				}
@@ -6104,7 +6126,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1424.5, 150.0, 88.0, 22.0 ],
+					"patching_rect" : [ 1411.5, 111.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0-loadbang"
 				}
@@ -6117,7 +6139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1306.5, 186.5, 105.0, 22.0 ],
+					"patching_rect" : [ 1293.5, 147.5, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "routepass getsize"
 				}
@@ -6130,7 +6152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1306.5, 245.5, 131.0, 22.0 ],
+					"patching_rect" : [ 1293.5, 206.5, 131.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "vzbl.windowresize.js",
 						"parameter_enable" : 0
@@ -6200,7 +6222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 1306.5, 77.0, 79.0, 20.0 ],
+					"patching_rect" : [ 1293.5, 38.0, 79.0, 20.0 ],
 					"style" : "",
 					"text" : "live.thisdevice"
 				}
@@ -6215,7 +6237,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1306.5, 115.0, 78.0, 20.0 ],
+					"patching_rect" : [ 1293.5, 76.0, 78.0, 20.0 ],
 					"style" : "",
 					"text" : "s #0-loadbang"
 				}
@@ -6243,6 +6265,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-102", 2 ],
 					"disabled" : 0,
@@ -6775,13 +6806,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103" : [ "stretchy", "stretchy", 0 ],
+			"obj-138" : [ "pany", "pany", 0 ],
+			"obj-135" : [ "zoom", "zoom", 0 ],
+			"obj-106" : [ "rotation", "rotation", 0 ],
 			"obj-137" : [ "boundmode[1]", "boundmode", 0 ],
 			"obj-104" : [ "stretchx", "stretchx", 0 ],
-			"obj-106" : [ "rotation", "rotation", 0 ],
-			"obj-138" : [ "pany", "pany", 0 ],
-			"obj-111" : [ "panx", "panx", 0 ],
-			"obj-135" : [ "zoom", "zoom", 0 ]
+			"obj-103" : [ "stretchy", "stretchy", 0 ],
+			"obj-111" : [ "panx", "panx", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6796,9 +6827,9 @@
 				"name" : "comment001",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
+					"textjustification" : [ 2 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
-					"textjustification" : [ 2 ]
+					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -6807,10 +6838,10 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -6820,8 +6851,6 @@
 				"name" : "vb green",
 				"umenu" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -6833,22 +6862,18 @@
 					}
 ,
 					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
 				"textbutton" : 				{
 					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"centerjust" : [ 2 ],
 					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"fontface" : [ 1 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -6861,6 +6886,12 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"comment" : 				{
@@ -6873,17 +6904,17 @@
 			}
 , 			{
 				"name" : "vb pink",
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				}
+,
 				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"parentstyle" : "vb purple",
@@ -6891,17 +6922,17 @@
 			}
 , 			{
 				"name" : "vb pink-1",
+				"textbutton" : 				{
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				}
+,
 				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
-				}
-,
-				"textbutton" : 				{
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -6911,8 +6942,6 @@
 				"name" : "vb purple",
 				"umenu" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -6924,22 +6953,18 @@
 					}
 ,
 					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
 				"textbutton" : 				{
 					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"centerjust" : [ 2 ],
 					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"fontface" : [ 1 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -6952,6 +6977,12 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"comment" : 				{
@@ -6966,8 +6997,6 @@
 				"name" : "vb purple-1",
 				"umenu" : 				{
 					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -6979,22 +7008,18 @@
 					}
 ,
 					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
 				"textbutton" : 				{
 					"fontsize" : [ 16.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"centerjust" : [ 2 ],
 					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"fontface" : [ 1 ]
-				}
-,
-				"button" : 				{
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"panel" : 				{
@@ -7007,6 +7032,12 @@
 						"proportion" : 0.39
 					}
 
+				}
+,
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"comment" : 				{
