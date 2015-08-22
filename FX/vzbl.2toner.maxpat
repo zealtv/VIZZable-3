@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1612.0, 933.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 933.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u323001954"
+					"varname" : "u144010573"
 				}
 
 			}
@@ -101,7 +101,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 306.0, 463.5, 97.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 27.0, 51.0, 102.0 ],
+					"presentation_rect" : [ 0.0, 27.0, 51.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -119,7 +119,6 @@
 
 					}
 ,
-					"shownumber" : 0,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
