@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 772.0, 933.0 ],
+		"rect" : [ 34.0, 78.0, 1612.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1679.0, 1032.031006, 99.0, 22.0 ],
+					"style" : "",
+					"text" : "r #0-messagesin"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -45,7 +58,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1679.0, 1067.0, 58.0, 22.0 ],
 					"restore" : 					{
-						"loop mode" : [ 0.0 ],
+						"loopmode" : [ 0.0 ],
 						"rate" : [ 1.0 ],
 						"scrub" : [ 0.0 ],
 						"stop" : [ -1 ]
@@ -53,7 +66,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u129004063"
+					"varname" : "u163004192"
 				}
 
 			}
@@ -80,32 +93,6 @@
 					"patching_rect" : [ 377.0, 776.0, 96.0, 87.0 ],
 					"style" : "",
 					"text" : "once clips are triggered by midi,  clips no longer trigger successfully by clicking the grid"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 932.0, 917.0, 95.0, 22.0 ],
-					"style" : "",
-					"text" : "route rate scrub"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 932.0, 872.0, 99.0, 22.0 ],
-					"style" : "",
-					"text" : "r #0-messagesin"
 				}
 
 			}
@@ -222,8 +209,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "loop mode",
-							"parameter_shortname" : "loop mode",
+							"parameter_longname" : "loopmode",
+							"parameter_shortname" : "loopmode",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "forwards", "pingpong" ],
 							"parameter_annotation_name" : "Blend Mode"
@@ -233,7 +220,7 @@
 ,
 					"textcolor" : [ 0.596078, 0.596078, 0.596078, 1.0 ],
 					"tricolor" : [ 0.596078, 0.596078, 0.596078, 1.0 ],
-					"varname" : "loop mode"
+					"varname" : "loopmode"
 				}
 
 			}
@@ -1184,7 +1171,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -687.0, 377.0, 211.0, 168.0 ],
+						"rect" : [ 533.0, 854.0, 211.0, 168.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -22536,15 +22523,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -22672,24 +22650,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -22785,6 +22745,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -23235,137 +23204,137 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-283" : [ "level[194]", "level", 0 ],
-			"obj-3::obj-243" : [ "level[182]", "level", 0 ],
-			"obj-3::obj-113" : [ "level[183]", "level", 0 ],
-			"obj-3::obj-485" : [ "level[179]", "level", 0 ],
-			"obj-3::obj-319" : [ "level[144]", "level", 0 ],
-			"obj-3::obj-269" : [ "level[189]", "level", 0 ],
-			"obj-3::obj-76" : [ "level[246]", "level", 0 ],
-			"obj-3::obj-129" : [ "level[142]", "level", 0 ],
-			"obj-3::obj-280" : [ "level[150]", "level", 0 ],
-			"obj-3::obj-332" : [ "level[207]", "level", 0 ],
-			"obj-3::obj-224" : [ "level[184]", "level", 0 ],
-			"obj-3::obj-102" : [ "level[227]", "level", 0 ],
-			"obj-3::obj-128" : [ "level[162]", "level", 0 ],
-			"obj-3::obj-259" : [ "level[200]", "level", 0 ],
-			"obj-3::obj-223" : [ "level[220]", "level", 0 ],
-			"obj-3::obj-148" : [ "level[147]", "level", 0 ],
-			"obj-3::obj-184" : [ "level[145]", "level", 0 ],
-			"obj-3::obj-415" : [ "level[133]", "level", 0 ],
-			"obj-3::obj-268" : [ "level[233]", "level", 0 ],
-			"obj-3::obj-506" : [ "level[217]", "level", 0 ],
-			"obj-3::obj-156" : [ "level[215]", "level", 0 ],
-			"obj-3::obj-210" : [ "level[238]", "level", 0 ],
-			"obj-3::obj-108" : [ "level[178]", "level", 0 ],
-			"obj-3::obj-309" : [ "level[204]", "level", 0 ],
-			"obj-3::obj-304" : [ "level[148]", "level", 0 ],
-			"obj-3::obj-151" : [ "level[153]", "level", 0 ],
-			"obj-3::obj-29" : [ "level[223]", "level", 0 ],
-			"obj-3::obj-339" : [ "level[237]", "level", 0 ],
-			"obj-3::obj-35" : [ "level[130]", "level", 0 ],
-			"obj-3::obj-256" : [ "level[140]", "level", 0 ],
-			"obj-3::obj-118" : [ "level[222]", "level", 0 ],
 			"obj-3::obj-324" : [ "level[137]", "level", 0 ],
-			"obj-3::obj-252" : [ "level[158]", "level", 0 ],
-			"obj-3::obj-26" : [ "level[224]", "level", 0 ],
-			"obj-3::obj-409" : [ "level[180]", "level", 0 ],
-			"obj-3::obj-265" : [ "level[250]", "level", 0 ],
-			"obj-3::obj-130" : [ "level[186]", "level", 0 ],
-			"obj-3::obj-498" : [ "level[149]", "level", 0 ],
-			"obj-3::obj-80" : [ "level[131]", "level", 0 ],
-			"obj-3::obj-127" : [ "level[163]", "level", 0 ],
-			"obj-3::obj-103" : [ "level[235]", "level", 0 ],
-			"obj-3::obj-186" : [ "level[141]", "level", 0 ],
-			"obj-3::obj-53" : [ "level[160]", "level", 0 ],
-			"obj-3::obj-185" : [ "level[135]", "level", 0 ],
-			"obj-3::obj-214" : [ "level[240]", "level", 0 ],
-			"obj-3::obj-75" : [ "level[154]", "level", 0 ],
-			"obj-3::obj-295" : [ "level[190]", "level", 0 ],
-			"obj-3::obj-302" : [ "level[225]", "level", 0 ],
-			"obj-122" : [ "rate", "rate", 0 ],
-			"obj-3::obj-288" : [ "level[213]", "level", 0 ],
-			"obj-3::obj-155" : [ "level[202]", "level", 0 ],
-			"obj-3::obj-211" : [ "level[247]", "level", 0 ],
-			"obj-3::obj-399" : [ "level[254]", "level", 0 ],
-			"obj-3::obj-154" : [ "level[164]", "level", 0 ],
-			"obj-3::obj-49" : [ "level[199]", "level", 0 ],
-			"obj-3::obj-216" : [ "level[211]", "level", 0 ],
-			"obj-3::obj-284" : [ "level[175]", "level", 0 ],
-			"obj-3::obj-253" : [ "level[255]", "level", 0 ],
-			"obj-3::obj-494" : [ "level[216]", "level", 0 ],
-			"obj-3::obj-133" : [ "level[191]", "level", 0 ],
-			"obj-3::obj-329" : [ "level[151]", "level", 0 ],
-			"obj-3::obj-270" : [ "level[230]", "level", 0 ],
-			"obj-3::obj-10" : [ "level[136]", "level", 0 ],
-			"obj-3::obj-337" : [ "level[193]", "level", 0 ],
-			"obj-3::obj-289" : [ "level[239]", "level", 0 ],
-			"obj-3::obj-95" : [ "level[177]", "level", 0 ],
-			"obj-3::obj-134" : [ "level[234]", "level", 0 ],
-			"obj-3::obj-266" : [ "level[245]", "level", 0 ],
+			"obj-3::obj-29" : [ "level[223]", "level", 0 ],
 			"obj-3::obj-420" : [ "level[188]", "level", 0 ],
-			"obj-3::obj-187" : [ "level[185]", "level", 0 ],
-			"obj-3::obj-132" : [ "level[174]", "level", 0 ],
-			"obj-3::obj-271" : [ "level[243]", "level", 0 ],
-			"obj-3::obj-58" : [ "level[161]", "level", 0 ],
-			"obj-3::obj-190" : [ "level[171]", "level", 0 ],
-			"obj-3::obj-232" : [ "level[248]", "level", 0 ],
-			"obj-3::obj-79" : [ "level[198]", "level", 0 ],
-			"obj-3::obj-205" : [ "level[221]", "level", 0 ],
-			"obj-3::obj-233" : [ "level[152]", "level", 0 ],
-			"obj-3::obj-507" : [ "level[218]", "level", 0 ],
-			"obj-3::obj-483" : [ "level[253]", "level", 0 ],
-			"obj-3::obj-282" : [ "level[209]", "level", 0 ],
-			"obj-3::obj-260" : [ "level[156]", "level", 0 ],
-			"obj-3::obj-310" : [ "level[205]", "level", 0 ],
-			"obj-3::obj-159" : [ "level[176]", "level", 0 ],
-			"obj-3::obj-344" : [ "level[201]", "level", 0 ],
-			"obj-3::obj-331" : [ "level[232]", "level", 0 ],
-			"obj-3::obj-50" : [ "level[212]", "level", 0 ],
-			"obj-3::obj-219" : [ "level[196]", "level", 0 ],
-			"obj-3::obj-166" : [ "level[249]", "level", 0 ],
-			"obj-3::obj-138" : [ "level[231]", "level", 0 ],
-			"obj-3::obj-412" : [ "level[229]", "level", 0 ],
-			"obj-3::obj-267" : [ "level[195]", "level", 0 ],
-			"obj-3::obj-501" : [ "level[155]", "level", 0 ],
-			"obj-3::obj-99" : [ "level[187]", "level", 0 ],
-			"obj-3::obj-96" : [ "level[214]", "level", 0 ],
-			"obj-3::obj-255" : [ "level[206]", "level", 0 ],
+			"obj-3::obj-133" : [ "level[191]", "level", 0 ],
+			"obj-3::obj-26" : [ "level[224]", "level", 0 ],
 			"obj-3::obj-188" : [ "level[244]", "level", 0 ],
-			"obj-3::obj-67" : [ "level[173]", "level", 0 ],
-			"obj-3::obj-195" : [ "level[146]", "level", 0 ],
-			"obj-3::obj-81" : [ "level[165]", "level", 0 ],
-			"obj-3::obj-300" : [ "level[170]", "level", 0 ],
-			"obj-3::obj-246" : [ "level[138]", "level", 0 ],
-			"obj-3::obj-303" : [ "level[242]", "level", 0 ],
-			"obj-34" : [ "scrub", "scrub", 0 ],
-			"obj-3::obj-336" : [ "level[236]", "level", 0 ],
-			"obj-3::obj-38" : [ "level[159]", "level", 0 ],
-			"obj-3::obj-238" : [ "level[157]", "level", 0 ],
-			"obj-120" : [ "loop mode", "loop mode", 0 ],
-			"obj-3::obj-408" : [ "level[132]", "level", 0 ],
-			"obj-3::obj-160" : [ "level[197]", "level", 0 ],
-			"obj-3::obj-285" : [ "level[210]", "level", 0 ],
-			"obj-3::obj-345" : [ "level[252]", "level", 0 ],
-			"obj-3::obj-220" : [ "level[251]", "level", 0 ],
-			"obj-3::obj-495" : [ "level[228]", "level", 0 ],
-			"obj-3::obj-100" : [ "level[226]", "level", 0 ],
-			"obj-3::obj-51" : [ "level[166]", "level", 0 ],
-			"obj-3::obj-147" : [ "level[241]", "level", 0 ],
-			"obj-3::obj-275" : [ "level[143]", "level", 0 ],
-			"obj-3::obj-175" : [ "level[134]", "level", 0 ],
+			"obj-3::obj-339" : [ "level[237]", "level", 0 ],
 			"obj-3::obj-330" : [ "level[181]", "level", 0 ],
+			"obj-3::obj-49" : [ "level[199]", "level", 0 ],
+			"obj-3::obj-134" : [ "level[234]", "level", 0 ],
+			"obj-3::obj-507" : [ "level[218]", "level", 0 ],
 			"obj-3::obj-290" : [ "level[169]", "level", 0 ],
-			"obj-3::obj-301" : [ "level[208]", "level", 0 ],
-			"obj-3::obj-287" : [ "level[167]", "level", 0 ],
+			"obj-3::obj-256" : [ "level[140]", "level", 0 ],
+			"obj-3::obj-175" : [ "level[134]", "level", 0 ],
+			"obj-3::obj-483" : [ "level[253]", "level", 0 ],
+			"obj-3::obj-302" : [ "level[225]", "level", 0 ],
+			"obj-3::obj-128" : [ "level[162]", "level", 0 ],
+			"obj-3::obj-285" : [ "level[210]", "level", 0 ],
+			"obj-3::obj-53" : [ "level[160]", "level", 0 ],
+			"obj-3::obj-80" : [ "level[131]", "level", 0 ],
+			"obj-120" : [ "loopmode", "loopmode", 0 ],
+			"obj-3::obj-269" : [ "level[189]", "level", 0 ],
+			"obj-3::obj-160" : [ "level[197]", "level", 0 ],
+			"obj-3::obj-205" : [ "level[221]", "level", 0 ],
+			"obj-3::obj-412" : [ "level[229]", "level", 0 ],
+			"obj-3::obj-79" : [ "level[198]", "level", 0 ],
+			"obj-3::obj-186" : [ "level[141]", "level", 0 ],
+			"obj-3::obj-288" : [ "level[213]", "level", 0 ],
+			"obj-3::obj-319" : [ "level[144]", "level", 0 ],
+			"obj-3::obj-501" : [ "level[155]", "level", 0 ],
+			"obj-3::obj-253" : [ "level[255]", "level", 0 ],
+			"obj-3::obj-246" : [ "level[138]", "level", 0 ],
+			"obj-3::obj-280" : [ "level[150]", "level", 0 ],
+			"obj-3::obj-337" : [ "level[193]", "level", 0 ],
+			"obj-3::obj-155" : [ "level[202]", "level", 0 ],
+			"obj-3::obj-10" : [ "level[136]", "level", 0 ],
+			"obj-3::obj-138" : [ "level[231]", "level", 0 ],
+			"obj-3::obj-50" : [ "level[212]", "level", 0 ],
+			"obj-3::obj-99" : [ "level[187]", "level", 0 ],
+			"obj-3::obj-211" : [ "level[247]", "level", 0 ],
+			"obj-3::obj-154" : [ "level[164]", "level", 0 ],
+			"obj-3::obj-232" : [ "level[248]", "level", 0 ],
+			"obj-3::obj-127" : [ "level[163]", "level", 0 ],
+			"obj-3::obj-195" : [ "level[146]", "level", 0 ],
+			"obj-3::obj-408" : [ "level[132]", "level", 0 ],
+			"obj-3::obj-266" : [ "level[245]", "level", 0 ],
+			"obj-3::obj-95" : [ "level[177]", "level", 0 ],
+			"obj-3::obj-220" : [ "level[251]", "level", 0 ],
+			"obj-3::obj-309" : [ "level[204]", "level", 0 ],
+			"obj-3::obj-58" : [ "level[161]", "level", 0 ],
+			"obj-3::obj-282" : [ "level[209]", "level", 0 ],
+			"obj-3::obj-495" : [ "level[228]", "level", 0 ],
+			"obj-3::obj-243" : [ "level[182]", "level", 0 ],
+			"obj-3::obj-268" : [ "level[233]", "level", 0 ],
+			"obj-3::obj-38" : [ "level[159]", "level", 0 ],
+			"obj-3::obj-270" : [ "level[230]", "level", 0 ],
+			"obj-3::obj-129" : [ "level[142]", "level", 0 ],
+			"obj-3::obj-81" : [ "level[165]", "level", 0 ],
+			"obj-3::obj-331" : [ "level[232]", "level", 0 ],
 			"obj-3::obj-421" : [ "level[219]", "level", 0 ],
-			"obj-3::obj-101" : [ "level[168]", "level", 0 ],
+			"obj-3::obj-344" : [ "level[201]", "level", 0 ],
+			"obj-3::obj-223" : [ "level[220]", "level", 0 ],
 			"obj-3::obj-191" : [ "level[128]", "level", 0 ],
+			"obj-3::obj-185" : [ "level[135]", "level", 0 ],
+			"obj-3::obj-397" : [ "level[203]", "level", 0 ],
+			"obj-3::obj-147" : [ "level[241]", "level", 0 ],
+			"obj-3::obj-100" : [ "level[226]", "level", 0 ],
+			"obj-3::obj-216" : [ "level[211]", "level", 0 ],
+			"obj-3::obj-295" : [ "level[190]", "level", 0 ],
+			"obj-3::obj-184" : [ "level[145]", "level", 0 ],
+			"obj-3::obj-51" : [ "level[166]", "level", 0 ],
+			"obj-3::obj-303" : [ "level[242]", "level", 0 ],
+			"obj-3::obj-485" : [ "level[179]", "level", 0 ],
+			"obj-3::obj-132" : [ "level[174]", "level", 0 ],
+			"obj-3::obj-265" : [ "level[250]", "level", 0 ],
+			"obj-3::obj-233" : [ "level[152]", "level", 0 ],
+			"obj-3::obj-67" : [ "level[173]", "level", 0 ],
+			"obj-3::obj-96" : [ "level[214]", "level", 0 ],
+			"obj-3::obj-113" : [ "level[183]", "level", 0 ],
+			"obj-3::obj-415" : [ "level[133]", "level", 0 ],
+			"obj-3::obj-130" : [ "level[186]", "level", 0 ],
+			"obj-3::obj-329" : [ "level[151]", "level", 0 ],
+			"obj-3::obj-187" : [ "level[185]", "level", 0 ],
 			"obj-3::obj-82" : [ "level[129]", "level", 0 ],
+			"obj-3::obj-336" : [ "level[236]", "level", 0 ],
+			"obj-3::obj-506" : [ "level[217]", "level", 0 ],
 			"obj-3::obj-247" : [ "level[139]", "level", 0 ],
+			"obj-3::obj-289" : [ "level[239]", "level", 0 ],
+			"obj-3::obj-166" : [ "level[249]", "level", 0 ],
+			"obj-3::obj-156" : [ "level[215]", "level", 0 ],
+			"obj-3::obj-301" : [ "level[208]", "level", 0 ],
+			"obj-3::obj-284" : [ "level[175]", "level", 0 ],
+			"obj-3::obj-345" : [ "level[252]", "level", 0 ],
+			"obj-3::obj-260" : [ "level[156]", "level", 0 ],
+			"obj-3::obj-102" : [ "level[227]", "level", 0 ],
+			"obj-3::obj-159" : [ "level[176]", "level", 0 ],
 			"obj-3::obj-204" : [ "level[172]", "level", 0 ],
+			"obj-3::obj-409" : [ "level[180]", "level", 0 ],
+			"obj-34" : [ "scrub", "scrub", 0 ],
+			"obj-3::obj-224" : [ "level[184]", "level", 0 ],
+			"obj-3::obj-310" : [ "level[205]", "level", 0 ],
+			"obj-3::obj-287" : [ "level[167]", "level", 0 ],
 			"obj-3::obj-68" : [ "level[192]", "level", 0 ],
-			"obj-3::obj-397" : [ "level[203]", "level", 0 ]
+			"obj-3::obj-101" : [ "level[168]", "level", 0 ],
+			"obj-3::obj-498" : [ "level[149]", "level", 0 ],
+			"obj-3::obj-283" : [ "level[194]", "level", 0 ],
+			"obj-3::obj-275" : [ "level[143]", "level", 0 ],
+			"obj-3::obj-252" : [ "level[158]", "level", 0 ],
+			"obj-3::obj-271" : [ "level[243]", "level", 0 ],
+			"obj-3::obj-108" : [ "level[178]", "level", 0 ],
+			"obj-3::obj-118" : [ "level[222]", "level", 0 ],
+			"obj-3::obj-332" : [ "level[207]", "level", 0 ],
+			"obj-3::obj-35" : [ "level[130]", "level", 0 ],
+			"obj-3::obj-210" : [ "level[238]", "level", 0 ],
+			"obj-3::obj-190" : [ "level[171]", "level", 0 ],
+			"obj-3::obj-151" : [ "level[153]", "level", 0 ],
+			"obj-3::obj-214" : [ "level[240]", "level", 0 ],
+			"obj-122" : [ "rate", "rate", 0 ],
+			"obj-3::obj-76" : [ "level[246]", "level", 0 ],
+			"obj-3::obj-399" : [ "level[254]", "level", 0 ],
+			"obj-3::obj-148" : [ "level[147]", "level", 0 ],
+			"obj-3::obj-300" : [ "level[170]", "level", 0 ],
+			"obj-3::obj-259" : [ "level[200]", "level", 0 ],
+			"obj-3::obj-219" : [ "level[196]", "level", 0 ],
+			"obj-3::obj-103" : [ "level[235]", "level", 0 ],
+			"obj-3::obj-494" : [ "level[216]", "level", 0 ],
+			"obj-3::obj-304" : [ "level[148]", "level", 0 ],
+			"obj-3::obj-267" : [ "level[195]", "level", 0 ],
+			"obj-3::obj-75" : [ "level[154]", "level", 0 ],
+			"obj-3::obj-238" : [ "level[157]", "level", 0 ],
+			"obj-3::obj-255" : [ "level[206]", "level", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -23376,7 +23345,7 @@
 			}
 , 			{
 				"name" : "vzbl.videorack.polypatch.maxpat",
-				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3/INPUT",
+				"bootpath" : "~/ZEAL/Patches and Presets/Max/VIZZABLE/VIZZable-3/vzbl.INPUT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -23397,10 +23366,10 @@
 		"styles" : [ 			{
 				"name" : "comment001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"textjustification" : [ 2 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ]
+					"textcolor" : [ 0.301961, 0.701961, 0.301961, 1.0 ],
+					"textjustification" : [ 2 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23409,10 +23378,10 @@
 , 			{
 				"name" : "style test",
 				"default" : 				{
-					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"accentcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
+					"elementcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23420,8 +23389,16 @@
 			}
 , 			{
 				"name" : "vb green",
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ]
+				}
+,
 				"umenu" : 				{
-					"fontsize" : [ 10.0 ],
+					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23432,18 +23409,21 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"textbutton" : 				{
-					"fontsize" : [ 16.0 ],
-					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"selectioncolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"centerjust" : [ 2 ]
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -23459,32 +23439,21 @@
 
 				}
 ,
-				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.701961, 0.811765, 0.301961, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"comment" : 				{
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
-				}
-,
 				"parentstyle" : "",
 				"multi" : 1
 			}
 , 			{
 				"name" : "vb pink",
 				"textbutton" : 				{
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
+					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				}
+,
+				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
@@ -23494,15 +23463,15 @@
 , 			{
 				"name" : "vb pink-1",
 				"textbutton" : 				{
-					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
-					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
-				}
-,
-				"umenu" : 				{
-					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+					"bgcolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ],
+					"selectioncolor" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
 				"button" : 				{
+					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
+				}
+,
+				"umenu" : 				{
 					"color" : [ 0.956863, 0.666667, 0.92549, 1.0 ]
 				}
 ,
@@ -23511,8 +23480,16 @@
 			}
 , 			{
 				"name" : "vb purple",
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
+				}
+,
 				"umenu" : 				{
-					"fontsize" : [ 10.0 ],
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23523,18 +23500,21 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"textbutton" : 				{
-					"fontsize" : [ 16.0 ],
-					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"centerjust" : [ 2 ]
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -23548,17 +23528,6 @@
 						"proportion" : 0.39
 					}
 
-				}
-,
-				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"comment" : 				{
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
@@ -23566,8 +23535,16 @@
 			}
 , 			{
 				"name" : "vb purple-1",
+				"button" : 				{
+					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ]
+				}
+,
 				"umenu" : 				{
-					"fontsize" : [ 10.0 ],
+					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -23578,18 +23555,21 @@
 						"autogradient" : 0
 					}
 ,
-					"elementcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"textcolor_inverse" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"textbutton" : 				{
-					"fontsize" : [ 16.0 ],
-					"centerjust" : [ 2 ],
+					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"selectioncolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 16.0 ],
+					"centerjust" : [ 2 ]
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : [ 1 ]
 				}
 ,
@@ -23603,17 +23583,6 @@
 						"proportion" : 0.39
 					}
 
-				}
-,
-				"button" : 				{
-					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"color" : [ 0.54902, 0.584314, 0.705882, 1.0 ],
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
-				}
-,
-				"comment" : 				{
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
